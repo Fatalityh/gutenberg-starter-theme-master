@@ -1,0 +1,51 @@
+.site-header {
+	background-color: #ddd;
+}
+h1, h2, h3, h4, h5, p, ul, li, a, nav, .wp-block-column a {
+	font-family: 'Inconsolata', cursive;
+}
+a {
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+}
+h3, h2 {
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+}
+p {
+	font-size: 17px;
+}
+#masthead {
+	background-color: white;
+}
+#masthead a {
+	height: 50px;
+	margin-left: 50px;
+}
+#masthead img {
+	float: left;
+	width: 127px;
+	height: auto;
+	padding: 5px;
+}
+.wp-block-cover {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+	height: 700px;
+}
+.post-779 {
+	margin-top: 0;
+}
+.wp-block-cover, .entry-content {
+	padding-top: 0!important;
+	margin-top: 0!important;
+}
+.main-navigation {
+	max-width: 1000px;
+	padding-bottom: 25px;
+}
+.entry-content h2 {
+	padding-top: 200px;
+}
