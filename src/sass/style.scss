@@ -29,3 +29,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 body {
 	background-color: $background-color;
 }
+@media only screen and (min-width: 1200px) {
+	.gform_wrapper {
+		margin-left: 30%;
+	}
+}
+@media only screen and (max-width: 1199px) and (min-width: 760px) {
+	.gform_wrapper {
+		margin-left: 17%;
+	}
+}
+@media only screen and (max-width: 759px) and (min-width: 20px) {
+	.gform_wrapper {
+		margin-left: 25%;
+	}
+}
